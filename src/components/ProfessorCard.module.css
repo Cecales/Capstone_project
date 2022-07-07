@@ -1,0 +1,21 @@
+.ProfessorCard {
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.ProfessorCard:hover {
+    opacity: 0.5;
+}
+
+.ProfessorImage {
+    border-radius: 10px;
+    background-color: azure;
+}
+
+@media (max-width: 560px) {
+    .ProfessorGrid {
+        width: 90%;
+        height: auto;
+    }
+}
